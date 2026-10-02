@@ -68,7 +68,7 @@ public class MockFilterRegistration implements FilterRegistration.Dynamic {
 	}
 
 	@Override
-	public @Nullable String getClassName() {
+	public String getClassName() {
 		return this.className;
 	}
 
